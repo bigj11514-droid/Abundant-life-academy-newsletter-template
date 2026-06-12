@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abundant Life Academy Newsletter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <!-- HEADER: Edit the title and date here -->
+      <section class="hero">
+        <div>
+          <p class="highlight">Abundant Life Academy</p>
+          <div class="hero-tagline">
+            Inspiring learners today, leading tomorrow.
+          </div>
+          <h1>
+            <span class="school-name">Abundant Life Academy</span>
+            Monthly School Update
+          </h1>
+          <p class="hero-subtitle">
+            Welcome to the official monthly newsletter for Abundant Life
+            Academy. Inside you’ll find student celebrations, upcoming events,
+            academic announcements, PTA news, and holiday notice details.
+          </p>
+        </div>
+
+        <div class="meta">
+          <div class="meta-card">
+            <strong>Month</strong>
+            <p>May 2026</p>
+          </div>
+          <div class="meta-card">
+            <strong>Edition</strong>
+            <p>Spring Term</p>
+          </div>
+          <div class="meta-card">
+            <strong>Contact</strong>
+            <p>abundantlifeacademy.edu</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUICK LINKS FOR PARENTS -->
+      <section class="section quick-links" id="quick-links">
+        <div class="section-header">
+          <div>
+            <h2>Quick Links for Parents</h2>
+            <p class="footer-note">
+              Jump directly to the exam schedule and other important sections.
+            </p>
+          </div>
+        </div>
+
+        <div class="quick-link-grid">
+          <a href="#exam-schedule" class="quick-link-card"
+            >Jump to Exam Schedule</a
+          >
+          <a href="#new-clubs" class="quick-link-card">Jump to New Clubs</a>
+          <a href="#learning-resources" class="quick-link-card"
+            >Jump to Learning Resources</a
+          >
+          <a href="#holiday-notice" class="quick-link-card"
+            >Holiday & Closure Notice</a
+          >
+        </div>
+
+        <span class="code-comment"
+          >/* Update these quick links to point to any sections parents should
+          find fast. */</span
+        >
+      </section>
+
+      <!-- MONTHLY UPDATES SECTION -->
+      <section class="section" id="monthly-updates">
+        <div class="section-header">
+          <div>
+            <h2>Monthly Updates</h2>
+            <p class="footer-note">
+              Quick summary of school life, classrooms, and community progress.
+            </p>
+          </div>
+          <button type="button" onclick="shareSection('monthly-updates')">
+            Share section
+          </button>
+        </div>
+
+        <p>
+          Our faculty continues to build student success through engaging
+          classroom lessons, after-school clubs, and robust counseling support.
+          This month we introduced the new reading circle and added wellness
+          workshops for our middle school students.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Student Growth</h3>
+            <p>
+              Progress milestones and student awards recognize academic
+              achievement and strong character throughout campus.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Classroom Spotlight</h3>
+            <p>
+              Science and art projects are on the rise this month, with hands-on
+              learning featured in every grade.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Community Engagement</h3>
+            <p>
+              Family nights and volunteer efforts continue to strengthen our
+              school community together.
+            </p>
+          </article>
+        </div>
+
+        <span class="code-comment"
+          >/* Change the text above to reflect the latest school updates,
+          announcements, or staff notes. */</span
+        >
+      </section>
+
+      <!-- EVENT PHOTOS SECTION -->
+      <section class="section" id="event-photos">
+        <div class="section-header">
+          <div>
+            <h2>Event Photos</h2>
+            <p class="footer-note">
+              Highlight recent events with photos that show student engagement
+              and school spirit.
+            </p>
+          </div>
+          <button type="button" onclick="shareSection('event-photos')">
+            Share section
+          </button>
+        </div>
+
+        <div class="grid-photos">
+          <figure class="photo-card">
+            <img
+              src="WhatsApp Image 2026-05-31 at 3.00.33 PM (1).jpeg"
+              alt="schools assembly"
+            />
+            <span>School Assembly</span>
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="WhatsApp Image 2026-05-31 at 3.00.32 PM.jpeg"
+              alt="Students learning art"
+            />
+            <span>Art Workshop</span>
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="WhatsApp Image 2026-05-31 at 3.00.33 PM.jpeg"
+              alt="Sports day"
+            />
+            <span>Sports Day</span>
+          </figure>
+        </div>
+
+        <span class="code-comment"
+          >/* Swap the image URLs or use local paths to replace photos with your
+          own event pictures. */</span
+        >
+      </section>
+
+      <!-- ACADEMIC ANNOUNCEMENTS SECTION -->
+      <section class="section" id="academic-announcements">
+        <div class="section-header">
+          <div>
+            <h2>Academic Announcements</h2>
+            <p class="footer-note">
+              Important messaging for classes, testing, and curriculum updates.
+            </p>
+          </div>
+          <button
+            type="button"
+            onclick="shareSection('academic-announcements')"
+          >
+            Share section
+          </button>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Exam Schedule</h3>
+            <p>
+              Final exam dates for core subjects are published. Please check the
+              calendar and talk to teachers if you need support.
+            </p>
+          </article>
+          <article class="card">
+            <h3>New Clubs</h3>
+            <p>
+              Academic clubs are expanding this semester with robotics, creative
+              writing, and science lab opportunities.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Learning Resources</h3>
+            <p>
+              Updated digital homework resources and tutoring schedules are now
+              available on the school portal.
+            </p>
+          </article>
+        </div>
+
+        <section class="section schedule-section" id="exam-schedule">
+          <div class="section-header">
+            <div>
+              <h3>Available Exam Schedules</h3>
+              <p class="footer-note">
+                Parents can use this section to see the current exam windows and
+                plan ahead.
+              </p>
+            </div>
+          </div>
+
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Subject</th>
+                <th>Exam Window</th>
+                <th>Grade Levels</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mathematics</td>
+                <td>June 4 - June 6</td>
+                <td>Grades 6-8</td>
+                <td>Study guides shared with students in class.</td>
+              </tr>
+              <tr>
+                <td>English Language Arts</td>
+                <td>June 7 - June 9</td>
+                <td>Grades 6-8</td>
+                <td>Review workshops available after school.</td>
+              </tr>
+              <tr>
+                <td>Science</td>
+                <td>June 10 - June 11</td>
+                <td>Grades 7-8</td>
+                <td>Lab practicals and written exam combined.</td>
+              </tr>
+              <tr>
+                <td>Social Studies</td>
+                <td>June 12 - June 13</td>
+                <td>Grades 6-8</td>
+                <td>Project presentations run on exam days.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="footer-note">
+            If you need the complete schedule for your child’s grade, please
+            contact the office or check the school portal.
+          </p>
+        </section>
+
+        <section class="section schedule-section" id="new-clubs">
+          <div class="section-header">
+            <div>
+              <h3>New Clubs This Semester</h3>
+              <p class="footer-note">
+                A fast overview of the clubs parents can encourage their
+                children to join.
+              </p>
+            </div>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <h3>Robotics Club</h3>
+              <p>
+                Meets Tuesdays after school for STEM projects, competitions, and
+                hands-on learning.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Creative Writing</h3>
+              <p>
+                Wednesday workshops support writers in all grades with
+                storytelling and presentation skills.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Science Lab Club</h3>
+              <p>
+                Friday sessions give students extra lab time and experiment
+                practice before science exams.
+              </p>
+            </article>
+          </div>
+
+          <p class="footer-note">
+            Contact school staff to sign up or to see the full club schedule by
+            grade.
+          </p>
+        </section>
+
+        <section class="section schedule-section" id="learning-resources">
+          <div class="section-header">
+            <div>
+              <h3>Learning Resources</h3>
+              <p class="footer-note">
+                Quick access to student supports, tutoring, and online tools.
+              </p>
+            </div>
+          </div>
+
+          <ul class="resource-list">
+            <li>
+              <strong>Homework portal:</strong> Digital assignments and grades
+              are updated weekly.
+            </li>
+            <li>
+              <strong>Tutoring:</strong> After-school sessions available in
+              math, reading, and science.
+            </li>
+            <li>
+              <strong>Study guides:</strong> Exam practice materials shared
+              through the school portal.
+            </li>
+            <li>
+              <strong>Parent workshops:</strong> Family support events for
+              learning strategies.
+            </li>
+          </ul>
+
+          <p class="footer-note">
+            Share this section with other parents so everyone can support
+            students with the right resources.
+          </p>
+        </section>
+
+        <span class="code-comment"
+          >/* Edit the exam dates, subjects, clubs, and learning resources each
+          month as the schedule changes. */</span
+        >
+      </section>
+
+      <!-- PTA COMMUNICATION SECTION -->
+      <section class="section" id="pta-communications">
+        <div class="section-header">
+          <div>
+            <h2>PTA Communications</h2>
+            <p class="footer-note">
+              Messages and reminders from the PTA leadership team.
+            </p>
+          </div>
+          <button type="button" onclick="shareSection('pta-communications')">
+            Share section
+          </button>
+        </div>
+
+        <p>
+          The PTA is preparing for the spring fair, volunteer sign-ups, and
+          donation drives. Please share the PTA newsletter with neighbors and
+          families interested in joining.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Upcoming Meeting</h3>
+            <p>
+              Next PTA meeting: June 3rd at 6:00 PM in the school library. All
+              parents are welcome.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Volunteer Drive</h3>
+            <p>
+              Volunteers needed for the garden cleanup day and book fair setup.
+              Register through the PTA portal.
+            </p>
+          </article>
+        </div>
+
+        <span class="code-comment"
+          >/* Replace this content with your PTA email, event links, and sign-up
+          instructions. */</span
+        >
+      </section>
+
+      <!-- HOLIDAY NOTICE SECTION -->
+      <section class="section" id="holiday-notice">
+        <div class="section-header">
+          <div>
+            <h2>Holiday Notice</h2>
+            <p class="footer-note">
+              Keep families informed about school closures and planning days.
+            </p>
+          </div>
+          <button type="button" onclick="shareSection('holiday-notice')">
+            Share section
+          </button>
+        </div>
+
+        <p>
+          School will be closed on Memorial Day, May 26th. Please plan
+          transportation and after-school care accordingly. The next teacher
+          professional development day is June 10th.
+        </p>
+
+        <span class="code-comment"
+          >/* Update the holiday details each month so parents and staff know
+          the latest schedule. */</span
+        >
+      </section>
+
+      <!-- BANNER WITH EDITING NOTE -->
+      <section class="full-width-banner">
+        <div>
+          <h3>Easy to re-edit for staff</h3>
+          <p>
+            Each section includes comments and clear headings so you can update
+            it without needing code experience.
+          </p>
+        </div>
+        <a href="#monthly-updates">Jump to updates</a>
+      </section>
+
+      <p class="footer-note">
+        Newsletter built for Abundant Life Academy. Copy the HTML file and
+        update the text inside the sections to keep every edition fresh and
+        current.
+      </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
